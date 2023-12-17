@@ -1,7 +1,8 @@
-// import kingCiv
+import kingCiv
+import iterator
 
 // Вся информация о игре
-interface savedGame
+interface savedGame : iterator
 {
   // Количество провинций
   var provincesCount : Int
@@ -23,5 +24,5 @@ interface savedGame
   var name : String
 
   // Правитель цивилизации
-  // var king : kingCiv
+  var king : kingCiv
 }
