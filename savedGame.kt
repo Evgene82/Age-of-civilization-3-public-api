@@ -1,8 +1,8 @@
-import kingCiv
-import iterator
+import IkingCiv
+import Iiterator
 
 // Вся информация о игре
-interface savedGame : iterator
+interface IsavedGame : Iiterator
 {
   // Количество провинций
   var provincesCount : Int

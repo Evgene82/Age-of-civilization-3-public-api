@@ -1,8 +1,8 @@
-import iterator
+import Iiterator
 
 // Король цивилизации
 // Вся информация о нём
-interface kingCiv : iterator
+interface IkingCiv : Iiterator
 {
   // Дата рождения короля
   val minAge : Int
@@ -28,7 +28,7 @@ interface kingCiv : iterator
   var isKing : Boolean
 
   // Список наследников
-  var heirs = mutableMapOf<kingCiv>()
+  var heirs = mutableMapOf<IkingCiv>()
   
   // Получить наследника по имени
   // Вернет наследника в формате kingCiv

@@ -1,10 +1,10 @@
-import conservationGames
+import IconservationGames
 
 // Интерфейс меню
 // Содержит информацию о сохранениях и тд в меню
-interface menu
+interface Imenu
 {
   // Список сохранённых игр
   // Находится в формате списка
-  var saveList = mutableMapOf<conservationGames>()
+  var saveList = mutableMapOf<IconservationGames>()
 }

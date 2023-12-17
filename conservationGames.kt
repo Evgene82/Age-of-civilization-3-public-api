@@ -1,8 +1,8 @@
-import savedGame
+import IsavedGame
 
 // интерфейс сохранённой игры
 // Содержит информацию о игре
-interface conservationGames
+interface IconservationGames
 {
   // Нужно для визуального отображения
   // Название сценария
